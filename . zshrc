@@ -11,7 +11,7 @@ if [ $(date +'%j') != $updated_at ]; then
 else
 
 # Save history so we get auto suggestions
-HISTFILE=$HOME/zsh/.zsh_history
+HISTFILE=$HOME/.zsh/.zsh_history
 HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 
