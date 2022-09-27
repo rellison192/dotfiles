@@ -17,11 +17,6 @@ SAVEHIST=$HISTSIZE
 
 # Options
 setopt auto_list # automatically list choices on ambiguous completion
-  compinit -C -i
-fi
-
-# Enhanced form of menu completion called `menu selection'
-zmodload -i zsh/complist
 setopt auto_menu # automatically use menu completion
 setopt always_to_end # move cursor to end if word had one match
 setopt hist_ignore_all_dups # remove older duplicate entries from history
