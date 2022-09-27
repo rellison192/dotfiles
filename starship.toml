@@ -1,0 +1,155 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+[aws]
+disabled = true
+
+[buf]
+disabled = true
+
+[c]
+disabled = true
+
+[character]                           
+success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+[cmake]
+disabled = true
+
+[cobol]
+disabled = true
+
+[conda]
+disabled = true
+
+[container]
+disabled = true
+
+[crystal]
+disabled = true
+
+[daml]
+disabled = true
+
+[dart]
+disabled = true
+
+[deno]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[golang]
+disabled = true
+
+[haskell]
+disabled = true
+
+[helm]
+disabled = true
+
+[java]
+disabled = true
+
+[julia]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[lua]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[openstack]
+disabled = true
+
+[package]
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[purescript]
+disabled = true
+
+[python]
+disabled = true
+
+[rlang]
+disabled = true
+
+[raku]
+disabled = true
+
+[red]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+disabled = true
+
+[scala]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[singularity]
+disabled = true
+
+[spack]
+disabled = true
+
+[swift]
+disabled = true
+
+[terraform]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[vlang]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[zig]
+disabled = true
