@@ -1,0 +1,14 @@
+Host *.github.com
+  IdentityFile ~/.ssh/id_ed25519
+<!-- ➜ ssh-add --apple-use-keychain ~/.ssh/id_ed25519   -->
+
+Host *.<other_host>
+  IdentityFile ~/.ssh/<other_host>_id_ed25519
+
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentitiesOnly yes
+  ForwardAgent yes
+  ServerAliveInterval 240
+  
